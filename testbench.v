@@ -11,7 +11,7 @@ module alu_tb();
 	logic [3:0] result_o;
 	logic carry_o;
 	
-	synth_wrapper ALU(
+	synth_wrapper alu(
 		.clk(clk_i),
 		.rst_n(rst_ni),
 		.op(op_i),
